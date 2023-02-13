@@ -1,0 +1,68 @@
+h1 {
+    color:blueviolet;
+    background-color:darkturquoise;
+}
+
+.bob {
+    color:lawngreen;
+}
+
+#greatness {
+    color:aqua;
+    background-color: pink;
+}
+
+#dog {
+    color:rgb(255, 0, 191);
+}
+
+#Cat {
+    color:rgb(164, 255, 8);
+}
+
+#Coke {
+    color:rgb(251, 238, 185);
+    background-color: aquamarine;
+}
+
+.TEC {
+    color:chartreuse;
+}
+
+#Puff {
+    color:brown;
+}
+
+#Black {
+    color:cyan;
+}
+
+#Flower {
+    color:bisque;
+    background-color: deeppink;
+}
+
+.Xray {
+    color:rgb(255, 209, 122);
+}
+
+.Group {
+    color:rgb(103, 48, 9);
+}
+
+h5 {
+    color:rgb(159, 159, 255);
+    background-color: chartreuse;
+}
+
+a {
+    color:red;
+}
+
+a:hover{
+    color:yellow;
+}
+
+a:visited{
+    color:green;
+}
