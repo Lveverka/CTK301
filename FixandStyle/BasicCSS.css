@@ -1,0 +1,58 @@
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:visited {
+    color:red;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#Cow {
+    background-color: rgb(182, 182, 255);
+}
+
+#Crow {
+    color:blue;
+}
+
+#Orange {
+    color:orange;
+}
+
+h1{
+    color:white;
+}
+
+h3{
+    background-color: yellow;
+}
+
+#Red{
+    color:red;
+}
+
+h4{
+    color:yellow;
+    background-color: green;
+}
+
+#Green{
+    background-color: lightgreen;
+}
+
+h5 {
+    color:red;
+}
+
+#Yellow {
+    background-color: yellow;
+}
+
+#wow {
+    color:darkblue;
+}
