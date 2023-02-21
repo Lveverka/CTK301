@@ -1,0 +1,117 @@
+h1 {
+    color:blueviolet;
+    background-color:darkturquoise;
+}
+
+.bob {
+    color:lawngreen;
+}
+
+#greatness {
+    color:orange;
+    background-color: pink;
+}
+
+#dog {
+    color:rgb(255, 0, 191);
+}
+
+#Cat {
+    color:rgb(164, 255, 8);
+}
+
+#Coke {
+    color:orange;
+    background-color: aquamarine;
+}
+
+.TEC {
+    color:orange;
+}
+
+#Puff {
+    color:brown;
+}
+
+#Black {
+    color:cyan;
+}
+
+#Flower {
+    color:orange;
+    background-color: deeppink;
+}
+
+.Xray {
+    color:orange;
+}
+
+.Group {
+    color:orange;
+}
+
+h5 {
+    color:rgb(159, 159, 255);
+    background-color: chartreuse;
+}
+
+a {
+    color:red;
+}
+
+a:hover{
+    color:yellow;
+}
+
+a:visited{
+    color:green;
+}
+
+p {text-align: center;}
+div {text-align: center;}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+h2 {
+    color: orange;
+    text-align: center;
+}
+
+h3 {
+    color: orange;
+    text-align: center;
+}
+
+h4 {
+    color:orange;
+    text-align: center;
+}
+
+h5 {
+    color: orange;
+    text-align: center;
+}
+
+.notbold{
+    font-weight: normal;
+    font-style: italic;
+}
+
+#Dark {
+    color:blueviolet;
+}
+
+.box {
+    border: 30px solid black;
+    padding: 20px;
+    background-color: yellow;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(MR.ROGERS.jpg);
+}
+
