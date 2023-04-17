@@ -1,5 +1,5 @@
 body {
-  background-color: #999999;
+  background-color: gainsboro;
 }
 
 nav {
@@ -26,7 +26,9 @@ nav ul{
 nav li{
   width: 250px;
   grid-column: span 1;
-  padding: 0px;
+  padding: 8px;
+  padding-right: 60px;
+  margin-bottom: 5px;
   margin-left: 66px;
   margin-top: 22px;
 }
@@ -36,9 +38,9 @@ nav li a{
   background-color: darkred;
   border: 6px solid black;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-weight: bold;
+  font-weight: none;
   padding: 1em;
-  color:bisque;
+  color: whitesmoke;
   text-decoration: none;
   text-align: center;
 }
@@ -46,6 +48,7 @@ nav li a{
 header{
   lighting-color: crimson;
   width: 300px;
+  text-shadow: 6px 6px 6px #000; /* x, y, blur, color */
 }
 
 nav li a{
@@ -59,6 +62,38 @@ main{
 h1{
   color: firebrick;
 }
+
+/* main */
+header {
+  height: 360px;
+  z-index: 10;
+}
+.header-banner {
+  background-color: #333;
+  background-image: url();
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+header h1 {
+  background-color: rgba(18,72,120, 0.8);
+  color: #fff;
+  padding: 0 1rem;
+  position: absolute;
+  top: 2rem; 
+  left: 2rem;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; 
+}
+
 
 h2{
   background-color: darkslategray;
@@ -90,6 +125,14 @@ footer{
   padding: 5px;
 }
 
+.textshadow{
+  margin: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: crimson;
+  text-shadow: 6px 6px 6px #000; /* x, y, blur, color */
+}
+
 .maining{
   border: 5px solid black;
   margin-right: 526px;
@@ -99,6 +142,96 @@ footer{
   background-color: darkred;
   border-radius: 10px;
 }
+
+.Youtube {
+    background: #000;
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -99;
+    }
+    .video-foreground,
+    .video-background iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    }
+
+    .One{
+      
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .Facebook{
   border: 1px solid black;
@@ -119,3 +252,4 @@ footer{
   background-color: black;
   border-radius: 11px;
 }
+
