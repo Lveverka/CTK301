@@ -2,9 +2,19 @@
 <html lang="en">
     <meta charset="UTF-8">
     <title>Art</title>
-  </head>
-  <body>
 
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="Art.css">
+<link 
+rel="stylesheet" 
+href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+  </head>
+
+  <body>
+    <div id="wrapper">
 <h1><b>Art</b></h1>
 <ul>
   <li><a href="MainPage.html">Home</a></li>
@@ -13,7 +23,35 @@
 </ul>
 
 
+<div id="Fdiv">
+    <a href="Beauty.png" data-fancybox="gallery" data-caption="Beauty">
+    </a>
+    <a href="BlackFire.png" data-fancybox="gallery" data-caption="BlackFire">
+    </a>
+    <a href="Punk.png" data-fancybox="gallery" data-caption="Punk">
+      </a>
+
+    </div>
 
 
-    </body>
+    <div id="myCarousel" class="f-carousel">
+      <div class="f-carousel__slide"><img src="Beauty.png"></div>
+      <div class="f-carousel__slide"><img src="BlackFire.png"></div>
+      <div class="f-carousel__slide"><img src="Punk.png"></div>
+  </div>
+
+  </div>
+  <script>
+    Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});
+
+const container = document.getElementById("myCarousel");
+const options = { infinite: false };
+
+new Carousel(container, options);
+
+  </script>
+  
+</body>
 </html>
